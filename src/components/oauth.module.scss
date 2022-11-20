@@ -1,0 +1,7 @@
+.oauthBtn {
+  @apply flex items-center justify-center uppercase gap-x-2 bg-red-700 text-white px-7
+        py-3 text-sm font-medium hover:bg-red-800 active:bg-red-900 shadow-md rounded;
+  &__icon {
+    @apply text-2xl bg-white rounded-2xl;
+  }
+}
