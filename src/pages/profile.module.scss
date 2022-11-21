@@ -1,0 +1,30 @@
+.profile {
+  @apply max-w-6xl mx-auto grid place-items-center;
+  &__header {
+    @apply text-3xl text-center mt-6 font-bold;
+  }
+  &__wrapper {
+    @apply w-full md:w-[50%] mt-6 px-3;
+  }
+  &__form {
+    @apply flex flex-col gap-y-3;
+  }
+  &__inputName {
+    @apply w-full px-4 py-2 text-xl text-gray-700 bg-white border border-gray-300 rounded transition ease-in-out;
+  }
+  &__inputEmail {
+    @apply w-full px-4 py-2 text-xl text-gray-700 bg-white border border-gray-300 rounded transition ease-in-out;
+  }
+  &__operations {
+    @apply flex items-center justify-between text-sm sm:text-lg;
+  }
+  &__changeName {
+    @apply flex items-center;
+  }
+  &__edit {
+    @apply text-red-600 hover:text-red-800 cursor-pointer ml-1;
+  }
+  &__signOut {
+    @apply text-blue-600 hover:text-blue-800 cursor-pointer;
+  }
+}
