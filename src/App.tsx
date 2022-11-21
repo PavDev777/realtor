@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import { Header } from "./components/Header";
 import { PrivateRoute } from "./components/PrivateRoute";
+import { CreateListing } from "./pages/CreateListing";
 import { ForgotPassword } from "./pages/ForgotPassword";
 import { Home } from "./pages/Home";
 import { Offers } from "./pages/Offers";
@@ -25,6 +26,7 @@ export const App = () => {
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/offers" element={<Offers />} />
+        <Route path="/create-listing" element={<CreateListing />} />
       </Routes>
       <ToastContainer
         position="bottom-center"

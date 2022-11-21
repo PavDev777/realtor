@@ -9,10 +9,7 @@
   &__form {
     @apply flex flex-col gap-y-3;
   }
-  &__inputName {
-    @apply w-full px-4 py-2 text-xl text-gray-700 bg-white border border-gray-300 rounded transition ease-in-out;
-  }
-  &__inputEmail {
+  &__input {
     @apply w-full px-4 py-2 text-xl text-gray-700 bg-white border border-gray-300 rounded transition ease-in-out;
   }
   &__operations {
@@ -27,4 +24,8 @@
   &__signOut {
     @apply text-blue-600 hover:text-blue-800 cursor-pointer;
   }
+}
+
+.inputChange {
+  @apply text-red-900 italic focus:bg-red-200;
 }
