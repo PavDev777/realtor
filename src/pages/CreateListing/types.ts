@@ -1,5 +1,5 @@
 export interface ICreateListing {
-  type: "rent" | "sale";
+  type: "rent" | "sell";
   name: string;
   bedrooms: number;
   bathrooms: number;
@@ -10,4 +10,5 @@ export interface ICreateListing {
   offer: string;
   regularPrice: number;
   discountedPrice: number;
+  images: FileList | null;
 }
